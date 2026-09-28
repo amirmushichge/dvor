@@ -1,0 +1,10 @@
+node_modules/
+dist/
+.vercel/
+.shots/
+.env*
+!.env.example
+*.local
+.DS_Store
+public/audio/*
+!public/audio/.gitkeep

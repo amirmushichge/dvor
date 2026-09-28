@@ -1,0 +1,23 @@
+{
+  "name": "dvor-english",
+  "private": true,
+  "version": "0.1.0",
+  "type": "module",
+  "description": "An explorable post-Soviet courtyard with English translations and context for its Russian inscriptions.",
+  "license": "MIT",
+  "engines": { "node": ">=18" },
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview",
+    "play": "vite build && vite preview --port 5179 --open",
+    "shots": "node tools/shoot.mjs"
+  },
+  "dependencies": {
+    "three": "^0.180.0"
+  },
+  "devDependencies": {
+    "puppeteer-core": "^23.0.0",
+    "vite": "^6.0.0"
+  }
+}
